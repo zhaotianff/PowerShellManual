@@ -1,2 +1,2 @@
-# PowerShellToolkit
-PowerShell Script Collection
+# PowerShellManual
+PowerShell Basic Script Collection
