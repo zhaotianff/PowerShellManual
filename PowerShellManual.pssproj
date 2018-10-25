@@ -32,6 +32,7 @@
     <Compile Include="2_FundamentalOperation.ps1" />
     <Compile Include="3_Commands.ps1" />
     <Compile Include="4_BasicProgramming.ps1" />
+    <Compile Include="5_FormatPrint.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

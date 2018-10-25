@@ -25,5 +25,9 @@ Get-Process | Out-File D:\a.txt
 #  '>' operator
 Get-Process > D:\a.txt
 
-
+#Append text
+#Out-File -Append
+Get-Alias | Out-File -Append D:\a.txt
+# '>>' operator
+Get-Alias >> D:\a.txt
 

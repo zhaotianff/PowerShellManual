@@ -35,4 +35,15 @@ Get-History
 #Runs commands from the session history.
 Invoke-History 1
 
+#Start-Transcript
+#Creates a record of all or part of a PowerShell session to a text file.
+Start-Transcript -Path D:\b.txt
+
+#Stop-Transcript
+#Stops a transcript.
+Stop-Transcript
+
+
+
+
 
