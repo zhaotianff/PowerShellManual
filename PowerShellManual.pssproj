@@ -31,8 +31,9 @@
     <Compile Include="1_HelloWorld.ps1" />
     <Compile Include="2_FundamentalOperation.ps1" />
     <Compile Include="3_Commands.ps1" />
-    <Compile Include="4_BasicProgramming.ps1" />
+    <Compile Include="4_Variable.ps1" />
     <Compile Include="5_FormatPrint.ps1" />
+    <Compile Include="6_Pipelines.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
