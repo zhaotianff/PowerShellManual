@@ -11,12 +11,12 @@
 <p>https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2013</p>
 
 <h2>How to execute script</h2>
-<h3>Visual Studio</h3>
+<p>Visual Studio</p>
 <p align="center">
  <img align="center" alt="In Visual Studio" 
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png" />
 </p>
-<h3>Windows Exporer</h3>
+<p>Windows Exporer</p>
 <p align="center">
  <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
 </p>
