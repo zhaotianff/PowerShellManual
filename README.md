@@ -19,7 +19,7 @@
 <p align="center">
  <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
 </p>
-*You'd better execute each commands separately*
+#### You'd better execute each commands separately*
 ## Script List
 <ul>
   <li>1_Print HelloWorld</li>
