@@ -10,18 +10,18 @@
 <h4>PowerShell Tools for Visual Studio 2013</h4>
 <p>https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2013</p>
 
-<p>How to execute script</p>
-<h4>Visual Studio</h4>
+<h2>How to execute script</h2>
+<h3>Visual Studio</h3>
 <p align="center">
  <img align="center" alt="In Visual Studio" 
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png" />
 </p>
-<h4>Windows Exporer</h4>
+<h3>Windows Exporer</h3>
 <p align="center">
  <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
 </p>
 <h4>You'd better execute each commands separately</h4>
-<p>Script List</p>
+<h2>Script List</h2>
 <ul>
   <li>1_Print HelloWorld</li>
   <li>2_FundamentalOperation</li>
