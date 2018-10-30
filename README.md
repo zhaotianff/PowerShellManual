@@ -11,9 +11,14 @@
 <p>https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellToolsforVisualStudio2013</p>
 ## How to execute script
 ### Visual Studio
-![In Visual Studio](https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png)
+<p align="center">
+ <img align="center" alt="In Visual Studio" 
+      src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png" />
+</p>
 ### Windows Exporer
-![In Windows Explorer](https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png)
+<p align="center">
+ <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
+</p>
 *You'd better execute each commands separately*
 ## Script List
 <ul>
