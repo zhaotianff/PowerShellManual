@@ -14,11 +14,13 @@ $loc
 #----
 #C:\
 
+#####################################
 foreach($alias in Get-Alias)
 {
     write   $alias.Name
 	write   $alias.Definition
 }
+#####################################
 #Output(part)
 #ForEach-Object
 #?
@@ -51,3 +53,4 @@ $loc | Get-Member
 #############
 Get-Variable
 #############
+#Gets the variables in the current console.

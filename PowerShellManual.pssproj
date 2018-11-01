@@ -34,6 +34,7 @@
     <Compile Include="4_Variable.ps1" />
     <Compile Include="5_FormatPrint.ps1" />
     <Compile Include="6_Pipelines.ps1" />
+    <Compile Include="7_PipelineFilter.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
