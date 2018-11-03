@@ -32,9 +32,11 @@
     <Compile Include="2_FundamentalOperation.ps1" />
     <Compile Include="3_Commands.ps1" />
     <Compile Include="4_Variable.ps1" />
-    <Compile Include="5_FormatPrint.ps1" />
-    <Compile Include="6_Pipelines.ps1" />
-    <Compile Include="7_PipelineFilter.ps1" />
+    <Compile Include="6_FormatPrint.ps1" />
+    <Compile Include="5_VariableScope.ps1" />
+    <Compile Include="7_Pipelines.ps1" />
+    <Compile Include="8_PipelineFilter.ps1" />
+    <Compile Include="9_DotNetObject.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
