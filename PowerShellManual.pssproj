@@ -28,15 +28,18 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="1_HelloWorld.ps1" />
-    <Compile Include="2_FundamentalOperation.ps1" />
-    <Compile Include="3_Commands.ps1" />
-    <Compile Include="4_Variable.ps1" />
-    <Compile Include="6_FormatPrint.ps1" />
-    <Compile Include="5_VariableScope.ps1" />
-    <Compile Include="7_Pipelines.ps1" />
-    <Compile Include="8_PipelineFilter.ps1" />
-    <Compile Include="9_DotNetObject.ps1" />
+    <Compile Include="010_DotNetGeneric.ps1" />
+    <Compile Include="001_HelloWorld.ps1" />
+    <Compile Include="002_FundamentalOperation.ps1" />
+    <Compile Include="003_Commands.ps1" />
+    <Compile Include="004_Variable.ps1" />
+    <Compile Include="006_FormatPrint.ps1" />
+    <Compile Include="005_VariableScope.ps1" />
+    <Compile Include="007_Pipelines.ps1" />
+    <Compile Include="008_PipelineFilter.ps1" />
+    <Compile Include="009_DotNetObject.ps1" />
+    <Compile Include="011_DotNetSample_ImgViewer.ps1" />
+    <Compile Include="012_ConditionalStatement.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
