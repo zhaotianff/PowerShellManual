@@ -40,7 +40,9 @@
   <li>12_ConditionalStatement</li>
 </ul>
 
+## License
 
+Code licensed under the [MIT License](LICENSE).
 
 
 
