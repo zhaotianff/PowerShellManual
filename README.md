@@ -38,6 +38,7 @@
 <li>10_DotNetGeneric</li>
   <li>11_DotNetSample_ImgViewer</li>
   <li>12_ConditionalStatement</li>
+  <li>13_String</li>
 </ul>
 
 ## License

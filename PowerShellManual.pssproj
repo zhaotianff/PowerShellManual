@@ -40,6 +40,7 @@
     <Compile Include="009_DotNetObject.ps1" />
     <Compile Include="011_DotNetSample_ImgViewer.ps1" />
     <Compile Include="012_ConditionalStatement.ps1" />
+    <Compile Include="013_String.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
