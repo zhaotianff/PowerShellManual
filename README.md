@@ -39,6 +39,7 @@
   <li>11_DotNetSample_ImgViewer</li>
   <li>12_ConditionalStatement</li>
   <li>13_String</li>
+  <li>14_BasicCalculation</li>
 </ul>
 
 ## License

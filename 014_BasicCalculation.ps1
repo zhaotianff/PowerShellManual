@@ -32,3 +32,8 @@ $i
 
 #Complex Arithmetic
 #Use .Net System.Math class
+#https://docs.microsoft.com/en-us/dotnet/api/system.math?redirectedfrom=MSDN&view=netframework-4.7.2
+[Math]::Abs(-3)
+[Math]::Pow(2,2) 
+[Math]::Sqrt(100)
+[Math]::Sin()
