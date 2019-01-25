@@ -42,6 +42,7 @@
     <Compile Include="012_ConditionalStatement.ps1" />
     <Compile Include="013_String.ps1" />
     <Compile Include="014_BasicCalculation.ps1" />
+    <Compile Include="015_Functions.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
