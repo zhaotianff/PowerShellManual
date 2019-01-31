@@ -30,7 +30,6 @@
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png" />
 </p>
 <h2>Script List</h2>
-* 
   *  [1_Print HelloWorld](001_Print_HelloWorld.ps1)
   *  [2_FundamentalOperation](002_FundamentalOperation.ps1)
   *  [3_Commands](003_Commands)
