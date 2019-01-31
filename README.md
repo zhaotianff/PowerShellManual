@@ -18,32 +18,20 @@ https://marketplace.visualstudio.com/items?itemName=AdamRDriscoll.PowerShellTool
 ### You'd better execute each commands separately
 ![Execute Selection](https://github.com/zhaotianff/PowerShellManual/blob/master/doc/execute%20selection.png "Execute Selection.png")  
 ## Check output
-<div align="center">![Show Output Window](https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png "Show Output Window.png")</div>  
+ <div align="center">![Show Output Window](https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png "Show Output Window.png")</div>  
 ## Script List
-  [1_Print HelloWorld](001_Print_HelloWorld.ps1)
-  
-  [2_FundamentalOperation](002_FundamentalOperation.ps1)
-  
-  [3_Commands](003_Commands.ps1)
-  
-  [4_Variable](004_Variable.ps1)
-  
-  [5_VariableScope](005_VariableScope.ps1)
-  
-  [6_FormatPrint](006_FormatPrint.ps1)
-  
-  [7_Pipelines](007_Pipelines.ps1)
-  
-  [8_PipelinesFilter](008_PipelinesFilter.ps1)
-  
-  [9_DotNetObject](009_DotNetObject.ps1)
-  
-  [10_DotNetGeneric](010_DotNetGeneric.ps1)
-  
-  [11_DotNetSample_ImgViewer](011_DotNetSample_ImgViewer.ps1)
-  
-  [12_ConditionalStatement](012_ConditionalStatement.ps1)
-  
+  [1_Print HelloWorld](001_Print_HelloWorld.ps1)  
+  [2_FundamentalOperation](002_FundamentalOperation.ps1) 
+  [3_Commands](003_Commands.ps1) 
+  [4_Variable](004_Variable.ps1) 
+  [5_VariableScope](005_VariableScope.ps1) 
+  [6_FormatPrint](006_FormatPrint.ps1)  
+  [7_Pipelines](007_Pipelines.ps1)  
+  [8_PipelinesFilter](008_PipelinesFilter.ps1)  
+  [9_DotNetObject](009_DotNetObject.ps1) 
+  [10_DotNetGeneric](010_DotNetGeneric.ps1)  
+  [11_DotNetSample_ImgViewer](011_DotNetSample_ImgViewer.ps1) 
+  [12_ConditionalStatement](012_ConditionalStatement.ps1) 
   [13_String](013_String.ps1)
   
   [14_BasicCalculation](014_BasicCalculation.ps1)
