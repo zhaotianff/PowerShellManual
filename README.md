@@ -30,14 +30,14 @@
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png" />
 </p>
 * Script List
-  *  [1_Print HelloWorld](001_Print_HelloWorld.ps1)
+  *  [1_Print HelloWorld](001_HelloWorld.ps1)
   *  [2_FundamentalOperation](002_FundamentalOperation.ps1)
   *  [3_Commands](003_Commands.ps1)
   *  [4_Variable](004_Variable.ps1)
   *  [5_VariableScope](005_VariableScope.ps1)
   *  [6_FormatPrint](006_FormatPrint.ps1)
   *  [7_Pipelines](007_Pipelines.ps1)
-  *  [8_PipelinesFilter](008_PipelinesFilter.ps1)
+  *  [8_PipelinesFilter](008_PipelineFilter.ps1)
   *  [9_DotNetObject](009_DotNetObject.ps1)
   *  [10_DotNetGeneric](010_DotNetGeneric.ps1)
   *  [11_DotNetSample_ImgViewer](011_DotNetSample_ImgViewer.ps1)
