@@ -16,11 +16,6 @@
  <img align="center" alt="In Visual Studio" 
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png" />
 </p>
-<p>Check output</p>
-<p align="center">
- <img align="center" alt="Show Output Window" 
-      src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png" />
-</p>
 <p>Windows Exporer</p>
 <p align="center">
  <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
@@ -29,24 +24,29 @@
 <p align="center">
  <img align="center" alt="Execute Selection"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/execute%20selection.png" />
 </p>
+<h2>Check output</h2>
+<p align="center">
+ <img align="center" alt="Show Output Window" 
+      src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png" />
+</p>
 <h2>Script List</h2>
-<ul>
-  <li>1_Print HelloWorld</li>
-  <li>2_FundamentalOperation</li>
-<li>3_Commands</li>
-<li>4_Variable</li>
-<li>5_VariableScope</li>
-<li>6_FormatPrint</li>
-<li>7_Pipelines</li>
-<li>8_PipelinesFilter</li>
-<li>9_DotNetObject</li>
-<li>10_DotNetGeneric</li>
-  <li>11_DotNetSample_ImgViewer</li>
-  <li>12_ConditionalStatement</li>
-  <li>13_String</li>
-  <li>14_BasicCalculation</li>
-  <li>15_Functions</li>
-</ul>
+* 
+  *  [1_Print HelloWorld](001_Print_HelloWorld.ps1)
+  *  [2_FundamentalOperation](002_FundamentalOperation.ps1)
+  *  [3_Commands](003_Commands)
+  *  [4_Variable]()
+  *  [5_VariableScope]()
+  *  [6_FormatPrint]()
+  *  [7_Pipelines](007_Pipelines)
+  *  [8_PipelinesFilter](008_PipelinesFilter)
+  *  [9_DotNetObject](009_DotNetObject)
+  *  [10_DotNetGeneric](010_DotNetGeneric)
+  *  [11_DotNetSample_ImgViewer](011_DotNetSample_ImgViewer)
+  *  [12_ConditionalStatement](012_ConditionalStatement)
+  *  [13_String](013_String)
+  *  [14_BasicCalculation](014_BasicCalculation)
+  *  [15_Functions](015_Functions)
+
 
 ## License
 
