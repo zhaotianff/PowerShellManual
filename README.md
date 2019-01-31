@@ -16,6 +16,11 @@
  <img align="center" alt="In Visual Studio" 
       src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20visual%20studio.png" />
 </p>
+<p>Check output</p>
+<p align="center">
+ <img align="center" alt="Show Output Window" 
+      src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/show%20output%20window.png" />
+</p>
 <p>Windows Exporer</p>
 <p align="center">
  <img align="center" alt="In Windows Explorer"          src="https://github.com/zhaotianff/PowerShellManual/blob/master/doc/in%20window%20explorer.png" />
@@ -40,6 +45,7 @@
   <li>12_ConditionalStatement</li>
   <li>13_String</li>
   <li>14_BasicCalculation</li>
+  <li>15_Functions</li>
 </ul>
 
 ## License
