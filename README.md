@@ -47,7 +47,8 @@
   * [13_String](013_String.ps1)
   * [14_BasicCalculation](014_BasicCalculation.ps1)
   * [15_Functions](015_Functions.ps1)
-
+  * [16_CodeReuse](016_CodeReuse.ps1)
+  * [17_CodeReuseExample](017_CodeReuseExample.ps1)
 
 ## License
 

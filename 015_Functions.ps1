@@ -57,6 +57,40 @@ Now | Get-Member
 #----                 ----------     ----------                                 
 #Add                  Method         datetime Add(timespan value)    
 
+#Adding help for functions
+Function MyFunctionWithHelp([string]$name,[switch]$help)
+{
+	if($help)
+	{
+		$helpstring =@"
+		Hello
+		MyFunctionWithHelp
+		Syntax:
+			MyFunctionWithHelp [string][-name]
+		Example
+			MyFunctionWithHelp -name helloworld
+"@
+		$helpstring
+	}
+
+	$name
+}
+
+#display help info
+MyFunctionWithHelp -help
+#Output
+#		Hello
+#		MyFunctionWithHelp
+#		Syntax:
+#			MyFunctionWithHelp [string][-name]
+#		Example
+#			MyFunctionWithHelp -name helloworld
+
+
+#display the contents of a function
+Get-Content Function:\MyFunctionWithHelp
+
+
 
 
 
