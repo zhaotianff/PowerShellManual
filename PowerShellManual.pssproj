@@ -28,23 +28,24 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="010_DotNetGeneric.ps1" />
-    <Compile Include="001_HelloWorld.ps1" />
-    <Compile Include="002_FundamentalOperation.ps1" />
-    <Compile Include="003_Commands.ps1" />
-    <Compile Include="004_Variable.ps1" />
-    <Compile Include="006_FormatPrint.ps1" />
-    <Compile Include="005_VariableScope.ps1" />
-    <Compile Include="007_Pipelines.ps1" />
-    <Compile Include="008_PipelineFilter.ps1" />
-    <Compile Include="009_DotNetObject.ps1" />
-    <Compile Include="011_DotNetSample_ImgViewer.ps1" />
-    <Compile Include="012_ConditionalStatement.ps1" />
-    <Compile Include="013_String.ps1" />
-    <Compile Include="014_BasicCalculation.ps1" />
-    <Compile Include="015_Functions.ps1" />
-    <Compile Include="016_CodeReuse.ps1" />
-    <Compile Include="017_CodeReuseExample.ps1" />
+    <Compile Include="001_PowerShellOverview.ps1" />
+    <Compile Include="011_DotNetGeneric.ps1" />
+    <Compile Include="002_HelloWorld.ps1" />
+    <Compile Include="003_FundamentalOperation.ps1" />
+    <Compile Include="004_Commands.ps1" />
+    <Compile Include="005_Variable.ps1" />
+    <Compile Include="007_FormatPrint.ps1" />
+    <Compile Include="006_VariableScope.ps1" />
+    <Compile Include="008_Pipelines.ps1" />
+    <Compile Include="009_PipelineFilter.ps1" />
+    <Compile Include="010_DotNetObject.ps1" />
+    <Compile Include="012_DotNetSample_ImgViewer.ps1" />
+    <Compile Include="013_ConditionalStatement.ps1" />
+    <Compile Include="014_String.ps1" />
+    <Compile Include="015_BasicCalculation.ps1" />
+    <Compile Include="016_Functions.ps1" />
+    <Compile Include="017_CodeReuse.ps1" />
+    <Compile Include="018_CodeReuseExample.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
