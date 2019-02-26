@@ -1,5 +1,5 @@
 #
-# _6_Pipelines.ps1
+# Pipelines.ps1
 #
 
 #Pipelines act like a series of connected segments of pipe. Items moving along the pipeline pass through each segment. 

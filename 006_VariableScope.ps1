@@ -1,5 +1,5 @@
 #
-# _5_VariableScope.ps1
+# VariableScope.ps1
 #
 
 #The syntax for a scope modifier in a variable is:

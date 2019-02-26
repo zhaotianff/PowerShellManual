@@ -1,5 +1,5 @@
 #
-# _011_DotNetSample.ps1
+# DotNetSample.ps1
 #
 
 Add-Type -AssemblyName System.Windows.Forms

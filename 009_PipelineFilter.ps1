@@ -1,5 +1,5 @@
 #
-# _7_PipelineFilter.ps1
+# PipelineFilter.ps1
 #
 
 #Use Where-Object(alias where or ?) to removing Objects from the Pipeline 

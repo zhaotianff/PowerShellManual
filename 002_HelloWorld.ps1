@@ -1,5 +1,5 @@
 ﻿#
-# Script.ps1
+# HelloWorld.ps1
 #
 
 

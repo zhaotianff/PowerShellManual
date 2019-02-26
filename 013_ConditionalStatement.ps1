@@ -1,5 +1,5 @@
 #
-# _012_ConditionalStatement.ps1
+# ConditionalStatement.ps1
 #
 
 #about comparison operators and logical operators

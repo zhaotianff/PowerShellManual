@@ -1,5 +1,5 @@
 #
-# _017_CodeReuseExample.ps1
+# CodeReuseExample.ps1
 #
 
 #include function in your current scope

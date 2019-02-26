@@ -1,5 +1,5 @@
 #
-# _5_FormatPrint.ps1
+# FormatPrint.ps1
 #
 
 #Powershell include 4 format print commands

@@ -1,5 +1,5 @@
 #
-# _4_Variable.ps1
+# Variable.ps1
 #
 
 #Powershell variables can save the result of a pipelines or commands

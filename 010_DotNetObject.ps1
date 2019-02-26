@@ -1,5 +1,5 @@
 #
-# _9_DotNetObject.ps1
+# DotNetObject.ps1
 #
 
 #You can use New-Object cmdlet to create .net object
