@@ -50,6 +50,7 @@
   * [16_Functions](016_Functions.ps1)
   * [17_CodeReuse](017_CodeReuse.ps1)
   * [18_CodeReuseExample](018_CodeReuseExample.ps1)
+  * [19_PipelineOrientedScripts](019_PipelineOrientedScripts.ps1)
 
 ## License
 
