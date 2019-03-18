@@ -90,6 +90,12 @@ MyFunctionWithHelp -help
 #display the contents of a function
 Get-Content Function:\MyFunctionWithHelp
 
+#######################################################################
+#PowerShell executes scripts in order from the beginning to the end.
+#If you try to call a function that you haven¡¯t yet defined
+#PowerShell will generate an error
+########################################################################
+
 
 
 
