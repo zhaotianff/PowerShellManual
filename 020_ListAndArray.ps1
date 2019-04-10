@@ -90,3 +90,37 @@ $matrix[2][0]
 #Output
 #0
 #3
+
+#Access element of a array
+$processList = Get-Process
+$processList
+$processList[0]
+
+$processList[0] | Get-Member
+$processList[0].Name
+
+#Visit each element of an array
+$numArray = 1,2,3
+$sum = 0
+foreach($item in $numArray)
+{
+	$sum += $item
+}
+$sum
+#Output
+#6
+
+$sum2 = 0
+$numArray | ForEach-Object{$sum2 += $_}
+$sum2
+#Output
+#6
+
+$sum3 = 0
+for($i = 0; $i -lt $numArray.Count;$i++)
+{
+	$sum3 +=$numArray[$i]
+}
+$sum3
+#Output
+#6
