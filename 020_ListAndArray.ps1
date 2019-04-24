@@ -67,6 +67,26 @@ $myArray
 #3
 
 #
+#Hashtable(Dictionary)
+#
+$myHashtable = @{ "Key1" = 1; "Key2" = 1,2,3 }
+$myHashtable["Key1"]
+#Output
+#1
+$myHashtable["Key2"]
+#Output
+#1
+#2
+#3
+$myHashtable["Key3"] = 3
+$myHashtable
+#Name                           Value                                           
+#----                           -----                                           
+#Key3                           3                                               
+#Key1                           1                                               
+#Key2                           {1, 2, 3}     
+
+#
 #Multidimensional Array
 #
 $matrix = @(
@@ -124,3 +144,54 @@ for($i = 0; $i -lt $numArray.Count;$i++)
 $sum3
 #Output
 #6
+
+#Sort an array
+#order by process name ascending
+get-process | Sort-Object Name
+#order by process name descending
+get-process | Sort-Object -Descending Name
+
+#sort a list that you’ve saved variables
+$myArray = 12,21,13,31,14,41
+[Array]::Sort($myArray)
+$myArray
+#Output
+#12
+#13
+#14
+#21
+#31
+#41
+
+#Determine Whether an Array Contains an Item
+$myArray = 1,2,3,4,5
+$myArray -contains 1
+#Output
+#True
+
+#Combine Two Arrays
+$array1 = 1,2,3,4,5
+$array2 = 6
+$array3 = $array1 + $array2
+$array3
+#Output
+#1
+#2
+#3
+#4
+#5
+#6
+
+#Find Items in an Array That Match a Value
+$myArray = "helloworld1","helloworld2","helloworld3"
+$myArray -eq "helloworld1"
+#Output
+#helloworld1
+
+$myArray -like "helloworld*"
+#Output
+#helloworld1
+#helloworld2
+#helloworld3
+
+
