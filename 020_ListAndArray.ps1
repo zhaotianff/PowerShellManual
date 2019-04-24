@@ -67,7 +67,7 @@ $myArray
 #3
 
 #
-#Hashtable(Dictionary)
+#Hashtable (key-value)
 #
 $myHashtable = @{ "Key1" = 1; "Key2" = 1,2,3 }
 $myHashtable["Key1"]
