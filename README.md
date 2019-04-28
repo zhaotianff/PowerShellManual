@@ -52,7 +52,7 @@
   * [18_CodeReuseExample](018_CodeReuseExample.ps1)
   * [19_PipelineOrientedScripts](019_PipelineOrientedScripts.ps1)
   * [20_ListAndArray](020_ListAndArray.ps1)
-
+  * [21_FilesAndDirectoriesManagement](021_FilesAndDirectoriesManagement.ps1)
 ## License
 
 Code licensed under the [MIT License](LICENSE).

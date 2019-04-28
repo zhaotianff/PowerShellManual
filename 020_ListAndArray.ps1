@@ -87,6 +87,25 @@ $myHashtable
 #Key2                           {1, 2, 3}     
 
 #
+#Sort a Hashtable by Key or Value
+#
+$myHashtable = @{"key1" = 1;"key2" = 2;"key3" = 3}
+$myHashtable
+#Output
+#key3                           3                                               
+#key1                           1                                               
+#key2                           2 
+
+
+$myHashtable = $myHashtable.GetEnumerator() | Sort Name
+$myHashtable
+#Output
+#key1                           1                                               
+#key2                           2                                               
+#key3                           3     
+
+
+#
 #Multidimensional Array
 #
 $matrix = @(
