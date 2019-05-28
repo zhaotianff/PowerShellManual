@@ -22,22 +22,35 @@ Get-Location
 #Output
 #D:\
 
+#
 #Create a directory(mkdir md)
+#
 mkdir dd
 
+#
 #Remove a file or directory(Remove-Item rmdir)
+#
 Remove-Item .\test.txt
 Remove-Item dd
 
+#
 #Rename a file or directory(Rename-Item rni or ren)
+#
 Rename-Item .\test.txt test1.txt
 
 #
+#Move a File or Directory(Move-Item mi)
+#
+#file
+Move-Item D:\test.raw E:\Test.raw
+#dir(include file)
+Move-Item D:\folder E:\folder
 
 #
 #Get the Files in a Directory
 #Get-ChildItem(dir)
 #
+
 #list all items
 Get-ChildItem
 
@@ -141,3 +154,32 @@ $item.VersionInfo
 Get-FileHash -Algorithm  MD5 .\test.txt
 Get-FileHash -Algorithm SHA1 .\test.txt
 
+#
+#Get the ACL of a File or Directory
+#
+Get-Acl D:\bbbb.raw
+
+#
+#Set the ACL of a File or Directory
+#
+
+# Copy a security descriptor from one file to another
+$aACL = Get-Acl -Path "D:\a.raw"
+Set-Acl -Path "D:\b.raw" -AclObject $aACL
+
+#Use the pipeline operator to pass a descriptor
+Get-Acl -Path "D:\a.raw" | Set-Acl -Path "D:\b.raw"
+
+#Example(prevents the Guestaccount from accessing a file)
+#FileSystemAccessRule Class msdn doc
+#https://docs.microsoft.com/en-us/dotnet/api/system.security.accesscontrol.filesystemaccessrule?redirectedfrom=MSDN&view=netframework-4.7.2
+$acl = Get-Acl D:\a.raw
+$arguments = "DESKTOP-6EEHA10\Guest","FullControl","Deny"
+$accessRule =New-Object System.Security.AccessControl.FileSystemAccessRule $arguments
+$acl.SetAccessRule($accessRule)
+$acl | Set-Acl D:\a.raw
+
+#
+#Create a ZIP Archive
+#
+#.Net Object

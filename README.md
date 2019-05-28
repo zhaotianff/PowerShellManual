@@ -53,6 +53,7 @@
   * [19_PipelineOrientedScripts](019_PipelineOrientedScripts.ps1)
   * [20_ListAndArray](020_ListAndArray.ps1)
   * [21_FilesAndDirectoriesManagement](021_FilesAndDirectoriesManagement.ps1)
+  * [22_InvokeWinAPI](022_InvokeWinAPI.ps1)
 ## License
 
 Code licensed under the [MIT License](LICENSE).
