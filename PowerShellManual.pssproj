@@ -50,6 +50,9 @@
     <Compile Include="020_ListAndArray.ps1" />
     <Compile Include="021_FilesAndDirectoriesManagement.ps1" />
     <Compile Include="022_InvokeWinAPI.ps1" />
+    <Compile Include="023_Processes.ps1" />
+    <Compile Include="024_Services.ps1" />
+    <Compile Include="025_WindowsRegistry.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

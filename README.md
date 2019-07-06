@@ -54,6 +54,9 @@
   * [20_ListAndArray](020_ListAndArray.ps1)
   * [21_FilesAndDirectoriesManagement](021_FilesAndDirectoriesManagement.ps1)
   * [22_InvokeWinAPI](022_InvokeWinAPI.ps1)
+  * [23_Processes](023_Processes.ps1)
+  * [24_Services](024_Services.ps1)
+  * [25_WindowsRegistry](025_WindowsRegistry.ps1)
 ## License
 
 Code licensed under the [MIT License](LICENSE).
