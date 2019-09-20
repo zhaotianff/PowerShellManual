@@ -2,6 +2,9 @@
 # FundamentalOperation.ps1
 #
 
+#Run as Admin
+Start-Process PowerShell -Verb RunAs
+
 #Basic calculation
 1+2
 2*2
