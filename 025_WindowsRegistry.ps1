@@ -5,7 +5,7 @@
 #Use the Set-Location cmdlet to navigate the registry
 Set-location HKLM:\Software\Microsoft\Windows\CurrentVersion\Run
 
-#View a Registry key
+#View a Registry entry
 Get-ItemProperty .
 
 #Output
@@ -23,6 +23,35 @@ Get-ItemProperty .
 #PSDrive             : HKLM
 #PSProvider          : Microsoft.PowerShell.Core\Registry
 
+#Or
+Get-Item -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+#To view the registry entries in a more readable form
+Get-ItemProperty -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion
+
+#Getting a Single Registry Entry
+Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion -Name DevicePath
+
+
+#Listing All Subkeys of a Registry Key(HKEY_CURRENT_USER)
+Get-ChildItem -Path hkcu:\
+Get-ChildItem -Path Registry::HKEY_CURRENT_USER
+Get-ChildItem -Path Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER
+Get-ChildItem -Path Registry::HKCU
+Get-ChildItem -Path Microsoft.PowerShell.Core\Registry::HKCU
+Get-ChildItem HKCU:
+Get-ChildItem 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths'
+
+#Creating Keys
+New-Item -Path hkcu:\test
+#Or
+Set-Location 'Registry::HKEY_CURRENT_USER'
+New-Item -Name 'Test'
+
+
+#Copying Keys
+Copy-Item -Path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion' -Destination 'HKCU:\Test'
+
+
 #Remove a Registry Key Value
 #HKEY_LOCAL_MACHINE\SOFTWARE\MyTestItem(for test)
 #HKEY_LOCAL_MACHINE\SOFTWARE\MyTestItem\MyTestSubItem1(for test)
@@ -31,4 +60,12 @@ Set-Location HKLM:\SOFTWARE\MyTestItem
 Get-ItemProperty .
 
 Remove-ItemProperty . MyTestSubItem1
+
+#Or
+Remove-Item -Path hkcu:\Test
+
+#Removing All Keys Under a Specific Key£¨You can't do this.£©
+#Remove-Item -Path HKCU:\CurrentVersion\* -Recurse
+
+
 
