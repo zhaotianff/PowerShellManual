@@ -31,6 +31,23 @@ Get-ItemProperty -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\C
 #Getting a Single Registry Entry
 Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion -Name DevicePath
 
+#Creating New Registry Entries
+New-ItemProperty -Path Registry::HKEY_CURRENT_USER\Test -Name PowerShellPath -PropertyType String -Value $PSHome
+#The PropertyType must be the name of a Microsoft.Win32.RegistryValueKind enumeration member from the following table:
+
+#PropertyType           Value	Meaning
+#Binary              	Binary data
+#DWord	                A number that is a valid UInt32
+#ExpandString	        A string that can contain environment variables that are dynamically expanded
+#MultiString	        A multiline string
+#String	                Any string value
+#QWord	                8 bytes of binary data
+
+#Renaming Registry Entries
+Rename-ItemProperty -Path Registry::HKEY_CURRENT_USER\Test -Name Test -NewName PSHome
+
+#Deleting Registry Entries
+Remove-ItemProperty -Path Registry::HKEY_CURRENT_USER\Test -Name PSHome
 
 #Listing All Subkeys of a Registry Key(HKEY_CURRENT_USER)
 Get-ChildItem -Path hkcu:\
@@ -66,6 +83,12 @@ Remove-Item -Path hkcu:\Test
 
 #Removing All Keys Under a Specific Key£¨You can't do this.£©
 #Remove-Item -Path HKCU:\CurrentVersion\* -Recurse
+
+#Renaming Registry Key
+Rename-Item -Path hkcu:\Test -NewName Test2
+
+#Get Registry Acl
+Get-Acl Registry::HKEY_CURRENT_USER
 
 
 
