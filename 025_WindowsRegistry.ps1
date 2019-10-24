@@ -90,5 +90,15 @@ Rename-Item -Path hkcu:\Test -NewName Test2
 #Get Registry Acl
 Get-Acl Registry::HKEY_CURRENT_USER
 
+#Set Registry Acl
+cd Registry::HKEY_LOCAL_MACHINE\Test
+$acl = Get-Acl .
+$arguments = "ComputerName\ZTI","FullControl","Allow"
+$accessRule = New-Object System.Security.AccessControl.RegistryAccessRule
+$acl.SetAccessRule($accessRule)
+$acl | Set-Acl .
+
+
+
 
 
