@@ -58,6 +58,7 @@
   * [24_Services](024_Services.ps1)
   * [25_WindowsRegistry](025_WindowsRegistry.ps1)
   * [26_XML](026_XML.ps1)
+  * [27_UserInteraction](027_UserInteraction.ps1)
   * [Utilities](Utilities.ps1)
 ## License
 

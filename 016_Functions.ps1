@@ -98,6 +98,16 @@ Get-Content Function:\MyFunctionWithHelp
 
 
 
+#Other example
+#File downloader
+Function DownloadFile([string]$url,[string]$filePath)
+{
+	$client = New-Object System.Net.WebClient
+	$client.DownloadFile($url,$filePath)
+	write "Download $url success"
+}
+
+
 
 
 

@@ -54,6 +54,7 @@
     <Compile Include="024_Services.ps1" />
     <Compile Include="025_WindowsRegistry.ps1" />
     <Compile Include="026_XML.ps1" />
+    <Compile Include="027_UserInteraction.ps1" />
     <Compile Include="Utilities.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
