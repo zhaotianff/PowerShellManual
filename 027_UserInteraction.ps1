@@ -20,7 +20,12 @@ param(
 	$message = $null,
 	[Parameter(Mandatory = $true)]
 	$Option,
-	$helptext = $null,$Default = 0
+	$helptext = $null,
+	$Default = 0
 )
+
+Set-StrictMode -Version 3
+
+$choices = New-Object 'Collections.ObjectModel.Collection[Management.Automation]'
 
 
